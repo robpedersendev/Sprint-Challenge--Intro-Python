@@ -23,11 +23,13 @@ class Vehicle:
     pass
 
 
-class FlightVehicle:
+class FlightVehicle(Vehicle):
+    # Vehicle class
     pass
 
 
-class GroundVehicle:
+class GroundVehicle(Vehicle):
+    # Vehicle class
     pass
 
 
