@@ -1,3 +1,7 @@
+import csv
+
+filename = "cities.csv"
+
 # Create a class to hold a city location. Call the class "City". It should have
 # fields for name, lat and lon (representing latitude and longitude).
 
