@@ -8,10 +8,11 @@ filename = "cities.csv"
 # fields for name, lat and lon (representing latitude and longitude).
 
 class City:
-    def __init__(self, lat, lon, name):
+    def __init__(self, name, lat, lon):
+        self.name = name
         self.lat = lat
         self.lon = lon
-        self.name = name
+
 
     def __str__(self):
         return f'{self.name} {self.lat} {self.lon}'
